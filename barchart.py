@@ -83,6 +83,7 @@ plt.yticks(np.arange(0, 160, 20))
 plt.xlabel('Countries')
 plt.ylabel('population (%)')
 
+#automatically adjust the layout of the figure
 plt.tight_layout()
 
 # saving the plot as an image
