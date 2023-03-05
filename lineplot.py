@@ -85,6 +85,7 @@ plt.xticks(getticksforyears(years.min(), years.max(), 1), rotation=60)
 plt.xlabel('Years')
 plt.ylabel('population (%)')
 
+#automatically adjust the layout of the figure
 plt.tight_layout()
 
 # saving the plot as an image
