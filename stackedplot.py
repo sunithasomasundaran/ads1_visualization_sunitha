@@ -64,6 +64,7 @@ plt.ylim(0, 900000)
 plt.xlabel('Years')
 plt.ylabel('CO2 (kilo tonnes)')
 
+#automatically adjust the layout of the plot
 plt.tight_layout()
 
 #saving the plot as an image
